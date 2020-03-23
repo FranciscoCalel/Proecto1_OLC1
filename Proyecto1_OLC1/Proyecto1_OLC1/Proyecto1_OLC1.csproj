@@ -51,6 +51,7 @@
     <Compile Include="Analizador.cs" />
     <Compile Include="Error.cs" />
     <Compile Include="Estado.cs" />
+    <Compile Include="EstAFD2.cs" />
     <Compile Include="ExpReg_TK.cs" />
     <Compile Include="Exp_Reg.cs" />
     <Compile Include="Form1.cs">
@@ -63,6 +64,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Token.cs" />
+    <Compile Include="TransAFD2.cs" />
     <Compile Include="Transiciones.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
