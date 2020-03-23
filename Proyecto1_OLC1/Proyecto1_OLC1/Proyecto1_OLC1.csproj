@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AFD.cs" />
+    <Compile Include="AFN.cs" />
     <Compile Include="Analizador.cs" />
     <Compile Include="Error.cs" />
     <Compile Include="Estado.cs" />
@@ -83,6 +85,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Update="Form1.cs" SubType="Form" />
+    <Compile Update="Form1.designer.cs" SubType="Form" DependentUpon="Form1.cs" />
+    <EmbeddedResource Update="Form1.resx" DependentUpon="Form1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

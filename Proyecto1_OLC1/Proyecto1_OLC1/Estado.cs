@@ -10,16 +10,16 @@ namespace Proyecto1_OLC1
     {
 
         private int numero;
-        private List<Transicion> listTrans;
+        private List<Transiciones> listTrans;
         private Boolean estadoInicial;
         private Boolean estadoAceptacion;
         public Estado(int numero)
         {
             this.numero = numero;
-            listTrans = new List<Transicion>();
+            listTrans = new List<Transiciones>();
         }
 
-        public List<Transicion> getListTrans()
+        public List<Transiciones> getListTrans()
         {
             return listTrans;
 
@@ -40,7 +40,7 @@ namespace Proyecto1_OLC1
             return estadoAceptacion;
         }
 
-        public void setListTrans(List<Transicion> listTrans)
+        public void setListTrans(List<Transiciones> listTrans)
         {
             this.listTrans = listTrans;
         }
