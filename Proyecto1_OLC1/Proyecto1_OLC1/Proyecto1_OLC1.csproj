@@ -63,6 +63,7 @@
     <Compile Include="ListConj.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TKER.cs" />
     <Compile Include="Token.cs" />
     <Compile Include="TransAFD2.cs" />
     <Compile Include="Transiciones.cs" />

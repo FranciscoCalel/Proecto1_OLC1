@@ -9,6 +9,9 @@ namespace Proyecto1_OLC1
 {
     class Analizador
     {
+        List<Image> imagenes;
+        List<Image> imagenesAFD;
+        List<Image> imagenesTT;
         //List<Image> imagenes;
         //fastcoloredtextbox
         LinkedList<Token> listaToken;
@@ -491,19 +494,31 @@ namespace Proyecto1_OLC1
             return listaConj;
         }
 
-      /*  public void generarAFN()
+        public void generarAFN()
         {
             AFN a = new AFN();
             a.generarAFN(listaER);
 
             imagenes = a.getListaImg();
+            imagenesAFD = a.getListaImgAFD();
+            imagenesTT = a.getListaImgTT();
 
         }
 
+        public List<Image> getListaImgTT()
+        {
+            return imagenesTT;
+        }
+
+        public List<Image> getListaImgAFD()
+        {
+            return imagenesAFD;
+        }
         public List<Image> getListaImg()
         {
             return imagenes;
-        }*/
+        }
+
 
     }
 }
