@@ -87,9 +87,9 @@
             // 
             // imaAFN
             // 
-            this.imaAFN.Location = new System.Drawing.Point(32, 16);
+            this.imaAFN.Location = new System.Drawing.Point(0, 3);
             this.imaAFN.Name = "imaAFN";
-            this.imaAFN.Size = new System.Drawing.Size(832, 287);
+            this.imaAFN.Size = new System.Drawing.Size(864, 300);
             this.imaAFN.TabIndex = 6;
             this.imaAFN.TabStop = false;
             // 
@@ -99,15 +99,15 @@
             this.panel1.Controls.Add(this.imaAFN);
             this.panel1.Location = new System.Drawing.Point(608, 66);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(715, 269);
+            this.panel1.Size = new System.Drawing.Size(715, 332);
             this.panel1.TabIndex = 7;
             // 
             // tabControl1
             // 
-            this.tabControl1.Location = new System.Drawing.Point(12, 44);
+            this.tabControl1.Location = new System.Drawing.Point(12, 69);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(541, 291);
+            this.tabControl1.Size = new System.Drawing.Size(553, 329);
             this.tabControl1.TabIndex = 8;
             // 
             // button4
@@ -132,7 +132,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(909, 375);
+            this.button6.Location = new System.Drawing.Point(905, 433);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(171, 23);
             this.button6.TabIndex = 13;
@@ -144,16 +144,16 @@
             // 
             this.panel2.AutoScroll = true;
             this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Location = new System.Drawing.Point(647, 415);
+            this.panel2.Location = new System.Drawing.Point(691, 462);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(650, 302);
+            this.panel2.Size = new System.Drawing.Size(606, 255);
             this.panel2.TabIndex = 14;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(3, 0);
+            this.pictureBox2.Location = new System.Drawing.Point(3, 3);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(691, 322);
+            this.pictureBox2.Size = new System.Drawing.Size(691, 319);
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
@@ -169,14 +169,14 @@
             // aBRIRToolStripMenuItem
             // 
             this.aBRIRToolStripMenuItem.Name = "aBRIRToolStripMenuItem";
-            this.aBRIRToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aBRIRToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.aBRIRToolStripMenuItem.Text = "ABRIR";
             this.aBRIRToolStripMenuItem.Click += new System.EventHandler(this.aBRIRToolStripMenuItem_Click);
             // 
             // gUARDARToolStripMenuItem
             // 
             this.gUARDARToolStripMenuItem.Name = "gUARDARToolStripMenuItem";
-            this.gUARDARToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.gUARDARToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.gUARDARToolStripMenuItem.Text = "GUARDAR";
             this.gUARDARToolStripMenuItem.Click += new System.EventHandler(this.gUARDARToolStripMenuItem_Click);
             // 
@@ -192,14 +192,14 @@
             // eToolStripMenuItem
             // 
             this.eToolStripMenuItem.Name = "eToolStripMenuItem";
-            this.eToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.eToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.eToolStripMenuItem.Text = "TOKEN";
             this.eToolStripMenuItem.Click += new System.EventHandler(this.eToolStripMenuItem_Click);
             // 
             // eRRORToolStripMenuItem
             // 
             this.eRRORToolStripMenuItem.Name = "eRRORToolStripMenuItem";
-            this.eRRORToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.eRRORToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.eRRORToolStripMenuItem.Text = "ERROR";
             this.eRRORToolStripMenuItem.Click += new System.EventHandler(this.eRRORToolStripMenuItem_Click);
             // 
@@ -216,7 +216,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(127, 345);
+            this.button7.Location = new System.Drawing.Point(314, 27);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(118, 23);
             this.button7.TabIndex = 15;

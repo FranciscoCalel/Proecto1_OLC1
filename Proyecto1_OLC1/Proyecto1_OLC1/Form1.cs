@@ -55,9 +55,9 @@ namespace Proyecto1_OLC1
 
             tabControl1.TabPages.Add("pestaña" + (i + 1));
 
-            //  RichTextBox txtEntrada = new RichTextBox();
+            //RichTextBox txtEntrada = new RichTextBox();
             tabControl1.TabPages[i].Controls.Add(txtEntrada[i] = new RichTextBox());
-
+            txtEntrada[i].ForeColor = Color.DarkBlue;
             txtEntrada[i].SetBounds(0, 0, 492, 411);
 
             i++;
