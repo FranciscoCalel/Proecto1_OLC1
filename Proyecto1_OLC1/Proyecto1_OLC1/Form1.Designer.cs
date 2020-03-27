@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.imaAFN = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
@@ -46,8 +46,10 @@
             this.eToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eRRORToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.button7 = new System.Windows.Forms.Button();
+            this.Pestaña = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.tabControl1 = new System.Windows.Forms.TabControl();
             ((System.ComponentModel.ISupportInitialize)(this.imaAFN)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -57,7 +59,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(220, 27);
+            this.button1.Location = new System.Drawing.Point(534, 74);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -67,7 +69,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(1233, 37);
+            this.button2.Location = new System.Drawing.Point(534, 308);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 4;
@@ -77,7 +79,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(1152, 37);
+            this.button3.Location = new System.Drawing.Point(534, 279);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 5;
@@ -87,9 +89,9 @@
             // 
             // imaAFN
             // 
-            this.imaAFN.Location = new System.Drawing.Point(0, 3);
+            this.imaAFN.Location = new System.Drawing.Point(16, 18);
             this.imaAFN.Name = "imaAFN";
-            this.imaAFN.Size = new System.Drawing.Size(864, 300);
+            this.imaAFN.Size = new System.Drawing.Size(848, 481);
             this.imaAFN.TabIndex = 6;
             this.imaAFN.TabStop = false;
             // 
@@ -97,22 +99,14 @@
             // 
             this.panel1.AutoScroll = true;
             this.panel1.Controls.Add(this.imaAFN);
-            this.panel1.Location = new System.Drawing.Point(608, 66);
+            this.panel1.Location = new System.Drawing.Point(664, 66);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(715, 332);
+            this.panel1.Size = new System.Drawing.Size(659, 332);
             this.panel1.TabIndex = 7;
-            // 
-            // tabControl1
-            // 
-            this.tabControl1.Location = new System.Drawing.Point(12, 69);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(553, 329);
-            this.tabControl1.TabIndex = 8;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(1071, 37);
+            this.button4.Location = new System.Drawing.Point(534, 250);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 11;
@@ -122,7 +116,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(990, 37);
+            this.button5.Location = new System.Drawing.Point(534, 221);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 12;
@@ -210,37 +204,51 @@
             this.tOKENSToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1370, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1365, 24);
             this.menuStrip1.TabIndex = 10;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // button7
+            // Pestaña
             // 
-            this.button7.Location = new System.Drawing.Point(314, 27);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(118, 23);
-            this.button7.TabIndex = 15;
-            this.button7.Text = "Pestaña Nueva";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.Pestaña.Location = new System.Drawing.Point(512, 45);
+            this.Pestaña.Name = "Pestaña";
+            this.Pestaña.Size = new System.Drawing.Size(118, 23);
+            this.Pestaña.TabIndex = 15;
+            this.Pestaña.Text = "Pestaña Nueva";
+            this.Pestaña.UseVisualStyleBackColor = true;
+            this.Pestaña.Click += new System.EventHandler(this.button7_Click);
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // imageList1
+            // 
+            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Location = new System.Drawing.Point(52, 45);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(435, 340);
+            this.tabControl1.TabIndex = 8;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(1370, 749);
-            this.Controls.Add(this.button7);
+            this.ClientSize = new System.Drawing.Size(1365, 749);
+            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.Pestaña);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -265,7 +273,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.PictureBox imaAFN;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
@@ -278,8 +285,10 @@
         private System.Windows.Forms.ToolStripMenuItem eToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eRRORToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button Pestaña;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.TabControl tabControl1;
     }
 }
 

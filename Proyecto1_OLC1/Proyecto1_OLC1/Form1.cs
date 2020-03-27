@@ -143,6 +143,7 @@ namespace Proyecto1_OLC1
             contadorImagen--;
             mostrarImagen();
         }
+
         public void mostrarImagen()
         {
 
