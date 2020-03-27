@@ -572,12 +572,12 @@ namespace Proyecto1_OLC1
                 grafo = grafo + "nodo" + estados[i].getNumero() + "[label = \"" + estados[i].getNumero() + "\"];\n";
                 if (estados[i].isEstInicial())
                 {
-                    grafo = grafo + "nodo" + estados[i].getNumero() + "[style=filled fillcolor = green];\n ";
+                    grafo = grafo + "nodo" + estados[i].getNumero() + "[style=filled fillcolor = gray];\n ";
                 }
                 else if (estados[i].isEstAceptacion())
                 {
-                    grafo = grafo + "nodo" + estados[i].getNumero() + "[style=filled fillcolor = blue];\n ";
-
+                    grafo = grafo + "nodo" + estados[i].getNumero() + "[style=filled fillcolor = gray];\n ";
+                    
                 }
 
 

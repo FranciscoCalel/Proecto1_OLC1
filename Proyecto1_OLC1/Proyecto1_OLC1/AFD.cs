@@ -270,11 +270,11 @@ namespace Proyecto1_OLC1
                 grafo = grafo + "nodo" + listaEstadosAFD[i].getNombre() + "[label = \"" + listaEstadosAFD[i].getNombre() + "\"];\n";
                 if (listaEstadosAFD[i].isInicial())
                 {
-                    grafo = grafo + "nodo" + listaEstadosAFD[i].getNombre() + "[style=filled fillcolor = green];\n ";
+                    grafo = grafo + "nodo" + listaEstadosAFD[i].getNombre() + "[style=filled fillcolor = gray ];\n ";
                 }
                 else if (listaEstadosAFD[i].isAceptacion())
                 {
-                    grafo = grafo + "nodo" + listaEstadosAFD[i].getNombre() + "[style=filled fillcolor = blue];\n ";
+                    grafo = grafo + "nodo" + listaEstadosAFD[i].getNombre() + "[style=filled fillcolor = gray];\n ";
 
                 }
             }
